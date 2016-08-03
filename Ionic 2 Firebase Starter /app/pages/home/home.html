@@ -1,0 +1,19 @@
+<ion-navbar *navbar>
+    <ion-title>
+        Home
+    </ion-title>
+</ion-navbar>
+
+<ion-content padding class="home">
+    <h2>What's Up?</h2>
+    <h3 padding>Active User: {{activeUser}}</h3>
+    <button (click)="doLogout()">Logout</button>
+    <ion-card *ngFor="let item of items">
+        <ion-card-header>
+            {{item.data.volumeInfo.title}}
+        </ion-card-header>
+        <ion-card-content>
+            {{item.data.volumeInfo.description}}
+        </ion-card-content>
+    </ion-card>
+</ion-content>

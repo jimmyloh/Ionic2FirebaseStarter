@@ -1,0 +1,424 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'angularfire2',
+1 verbose cli   '--save' ]
+2 info using npm@2.15.5
+3 info using node@v4.4.6
+4 verbose install initial load of /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/package.json
+5 warn package.json ionic2-angularfire-login@ No repository field.
+6 warn package.json ionic2-angularfire-login@ No license field.
+7 verbose installManyTop reading scoped package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/angular2/package.json
+8 verbose installManyTop reading scoped package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/angularfire2/package.json
+9 verbose installManyTop reading scoped package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/del/package.json
+10 verbose installManyTop reading scoped package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/es6-shim/package.json
+11 verbose installManyTop reading scoped package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/firebase/package.json
+12 verbose installManyTop reading scoped package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/gulp/package.json
+13 verbose installManyTop reading scoped package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/gulp-watch/package.json
+14 verbose installManyTop reading scoped package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/ionic-angular/package.json
+15 verbose installManyTop reading scoped package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/ionic-gulp-browserify-typescript/package.json
+16 verbose installManyTop reading scoped package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/ionic-gulp-fonts-copy/package.json
+17 verbose installManyTop reading scoped package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/ionic-gulp-html-copy/package.json
+18 verbose installManyTop reading scoped package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/ionic-gulp-sass-build/package.json
+19 verbose installManyTop reading scoped package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/ionic-gulp-scripts-copy/package.json
+20 verbose installManyTop reading scoped package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/ionic-native/package.json
+21 verbose installManyTop reading scoped package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/ionicons/package.json
+22 verbose installManyTop reading scoped package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/reflect-metadata/package.json
+23 verbose installManyTop reading scoped package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/run-sequence/package.json
+24 verbose installManyTop reading scoped package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/rxjs/package.json
+25 verbose installManyTop reading scoped package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/zone.js/package.json
+26 verbose installManyTop reading scoped package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/@angular/common/package.json
+27 verbose installManyTop reading scoped package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/@angular/compiler/package.json
+28 verbose installManyTop reading scoped package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/@angular/core/package.json
+29 verbose installManyTop reading scoped package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/@angular/http/package.json
+30 verbose installManyTop reading scoped package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/@angular/platform-browser/package.json
+31 verbose installManyTop reading scoped package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/@angular/platform-browser-dynamic/package.json
+32 verbose installManyTop reading scoped package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/@angular/router/package.json
+33 info package.json firebase@2.4.2 No license field.
+34 info package.json ionic-gulp-fonts-copy@1.0.0 No repository field.
+35 info package.json ionic-gulp-fonts-copy@1.0.0 No license field.
+36 info package.json @angular/common@2.0.0-rc.4 No description
+37 info package.json @angular/compiler@2.0.0-rc.4 No description
+38 info package.json @angular/core@2.0.0-rc.4 No description
+39 info package.json @angular/platform-browser@2.0.0-rc.4 No description
+40 info package.json @angular/http@2.0.0-rc.4 No description
+41 info package.json @angular/platform-browser-dynamic@2.0.0-rc.4 No description
+42 info package.json @angular/router@2.0.0-rc.2 No description
+43 verbose readDependencies loading dependencies from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/package.json
+44 verbose install angularfire2 is installed as 2.0.0-beta.2
+45 silly cache add args [ 'angularfire2@^2.0.0-beta.0', null ]
+46 verbose cache add spec angularfire2@^2.0.0-beta.0
+47 silly cache add parsed spec Result {
+47 silly cache add   raw: 'angularfire2@^2.0.0-beta.0',
+47 silly cache add   scope: null,
+47 silly cache add   name: 'angularfire2',
+47 silly cache add   rawSpec: '^2.0.0-beta.0',
+47 silly cache add   spec: '>=2.0.0-beta.0 <3.0.0',
+47 silly cache add   type: 'range' }
+48 silly addNamed angularfire2@>=2.0.0-beta.0 <3.0.0
+49 verbose addNamed ">=2.0.0-beta.0 <3.0.0" is a valid semver range for angularfire2
+50 silly addNameRange { name: 'angularfire2',
+50 silly addNameRange   range: '>=2.0.0-beta.0 <3.0.0',
+50 silly addNameRange   hasData: false }
+51 silly mapToRegistry name angularfire2
+52 silly mapToRegistry using default registry
+53 silly mapToRegistry registry https://registry.npmjs.org/
+54 silly mapToRegistry data Result {
+54 silly mapToRegistry   raw: 'angularfire2',
+54 silly mapToRegistry   scope: null,
+54 silly mapToRegistry   name: 'angularfire2',
+54 silly mapToRegistry   rawSpec: '',
+54 silly mapToRegistry   spec: 'latest',
+54 silly mapToRegistry   type: 'tag' }
+55 silly mapToRegistry uri https://registry.npmjs.org/angularfire2
+56 verbose addNameRange registry:https://registry.npmjs.org/angularfire2 not in flight; fetching
+57 verbose request uri https://registry.npmjs.org/angularfire2
+58 verbose request no auth needed
+59 info attempt registry request try #1 at 8:18:21 PM
+60 verbose request id 48b915468ad1e075
+61 verbose etag "5OFI50Y47L4P79ATKVCKCPOV7"
+62 http request GET https://registry.npmjs.org/angularfire2
+63 http 304 https://registry.npmjs.org/angularfire2
+64 verbose headers { date: 'Wed, 03 Aug 2016 12:18:26 GMT',
+64 verbose headers   via: '1.1 varnish',
+64 verbose headers   'cache-control': 'max-age=300',
+64 verbose headers   etag: '"5OFI50Y47L4P79ATKVCKCPOV7"',
+64 verbose headers   age: '0',
+64 verbose headers   connection: 'keep-alive',
+64 verbose headers   'x-served-by': 'cache-sin6920-SIN',
+64 verbose headers   'x-cache': 'HIT',
+64 verbose headers   'x-cache-hits': '1',
+64 verbose headers   'x-timer': 'S1470226706.152562,VS0,VE974',
+64 verbose headers   vary: 'Accept-Encoding' }
+65 silly get cb [ 304,
+65 silly get   { date: 'Wed, 03 Aug 2016 12:18:26 GMT',
+65 silly get     via: '1.1 varnish',
+65 silly get     'cache-control': 'max-age=300',
+65 silly get     etag: '"5OFI50Y47L4P79ATKVCKCPOV7"',
+65 silly get     age: '0',
+65 silly get     connection: 'keep-alive',
+65 silly get     'x-served-by': 'cache-sin6920-SIN',
+65 silly get     'x-cache': 'HIT',
+65 silly get     'x-cache-hits': '1',
+65 silly get     'x-timer': 'S1470226706.152562,VS0,VE974',
+65 silly get     vary: 'Accept-Encoding' } ]
+66 verbose etag https://registry.npmjs.org/angularfire2 from cache
+67 verbose get saving angularfire2 to /Volumes/MAC/Users/user/.npm/registry.npmjs.org/angularfire2/.cache.json
+68 verbose correctMkdir /Volumes/MAC/Users/user/.npm correctMkdir not in flight; initializing
+69 silly addNameRange number 2 { name: 'angularfire2',
+69 silly addNameRange   range: '>=2.0.0-beta.0 <3.0.0',
+69 silly addNameRange   hasData: true }
+70 silly addNameRange versions [ 'angularfire2',
+70 silly addNameRange   [ '2.0.0-alpha.1',
+70 silly addNameRange     '2.0.0-alpha.2',
+70 silly addNameRange     '2.0.0-alpha.3',
+70 silly addNameRange     '2.0.0-alpha.4',
+70 silly addNameRange     '2.0.0-alpha.5',
+70 silly addNameRange     '2.0.0-alpha.6',
+70 silly addNameRange     '2.0.0-alpha.7',
+70 silly addNameRange     '2.0.0-alpha.8',
+70 silly addNameRange     '2.0.0-alpha.9',
+70 silly addNameRange     '2.0.0-alpha.10',
+70 silly addNameRange     '2.0.0-alpha.11',
+70 silly addNameRange     '2.0.0-alpha.12',
+70 silly addNameRange     '2.0.0-alpha.13',
+70 silly addNameRange     '2.0.0-alpha.14',
+70 silly addNameRange     '2.0.0-alpha.15',
+70 silly addNameRange     '2.0.0-alpha.16',
+70 silly addNameRange     '2.0.0-alpha.17',
+70 silly addNameRange     '2.0.0-beta.0',
+70 silly addNameRange     '2.0.0-beta.0-1',
+70 silly addNameRange     '2.0.0-beta.1-next',
+70 silly addNameRange     '2.0.0-beta.1-next2',
+70 silly addNameRange     '2.0.0-beta.1',
+70 silly addNameRange     '2.0.0-beta.2.0.0-beta.022e50c',
+70 silly addNameRange     '2.0.0-beta.1-c823de0',
+70 silly addNameRange     '2.0.0-beta.2-c823de0',
+70 silly addNameRange     '2.0.0-beta.2',
+70 silly addNameRange     '2.0.0-beta.3-0930330' ] ]
+71 silly addNamed angularfire2@2.0.0-beta.2
+72 verbose addNamed "2.0.0-beta.2" is a plain semver version for angularfire2
+73 silly cache afterAdd angularfire2@2.0.0-beta.2
+74 verbose afterAdd /Volumes/MAC/Users/user/.npm/angularfire2/2.0.0-beta.2/package/package.json not in flight; writing
+75 verbose correctMkdir /Volumes/MAC/Users/user/.npm correctMkdir not in flight; initializing
+76 verbose afterAdd /Volumes/MAC/Users/user/.npm/angularfire2/2.0.0-beta.2/package/package.json written
+77 silly install resolved [ { name: 'angularfire2',
+77 silly install resolved     version: '2.0.0-beta.2',
+77 silly install resolved     description: '<p align="center">   <h1 align="center">AngularFire2</h1>   <p align="center">The official library for Firebase and Angular 2</p> </p>',
+77 silly install resolved     main: './angularfire2.js',
+77 silly install resolved     'jsnext:main': './es6/angularfire2.js',
+77 silly install resolved     scripts:
+77 silly install resolved      { test: 'npm run build; karma start',
+77 silly install resolved        docs: 'typedoc --out docs/api/ --module commonjs --mode modules --name AngularFire2 src',
+77 silly install resolved        build: 'rm -rf dist; tsc',
+77 silly install resolved        build_npm: 'rm -rf dist && tsc -p tsconfig.publish.es5.json && tsc -p tsconfig.publish.es6.json',
+77 silly install resolved        postbuild_npm: 'cp manual_typings/firebase3/firebase3.d.ts package.json README.md .npmignore dist/ && npm run rewrite_npm_package',
+77 silly install resolved        rewrite_npm_package: 'node --harmony_destructuring tools/rewrite-published-package.js',
+77 silly install resolved        build_bundle: 'cp -r src angularfire2 && tsc typings/main.d.ts angularfire2.ts --rootDir . --module system -t es5 --outFile dist/bundles/angularfire2.js  --moduleResolution node --emitDecoratorMetadata --experimentalDecorators',
+77 silly install resolved        e2e_test: 'webdriver-manager update && npm run build_e2e && protractor',
+77 silly install resolved        build_e2e: 'rm -rf dist-test && npm run build && tsc -p test/ && cp test/e2e/firebase_object/index.html dist-test/e2e/firebase_object/ && cp test/e2e/firebase_list/index.html dist-test/e2e/firebase_list/ && cp test/e2e/auth/index.html dist-test/e2e/auth/',
+77 silly install resolved        changelog: 'conventional-changelog -p angular -i CHANGELOG.md -s -r 1' },
+77 silly install resolved     keywords: [ 'angular2', 'angular', 'firebase' ],
+77 silly install resolved     repository:
+77 silly install resolved      { type: 'git',
+77 silly install resolved        url: 'git+https://github.com/angular/angularfire2.git' },
+77 silly install resolved     author: { name: 'jeffbcross' },
+77 silly install resolved     license: 'MIT',
+77 silly install resolved     bugs: { url: 'https://github.com/angular/angularfire2/issues' },
+77 silly install resolved     homepage: 'https://github.com/angular/angularfire2#readme',
+77 silly install resolved     devDependencies:
+77 silly install resolved      { 'conventional-changelog-cli': '^1.2.0',
+77 silly install resolved        'es6-module-loader': '^0.17.10',
+77 silly install resolved        'es6-shim': '^0.35.0',
+77 silly install resolved        'firebase-server': '^0.5.2',
+77 silly install resolved        gulp: '^3.9.0',
+77 silly install resolved        'gulp-jasmine': '^2.2.1',
+77 silly install resolved        'gulp-typescript': '^2.10.0',
+77 silly install resolved        'http-server': '^0.8.5',
+77 silly install resolved        jasmine: '^2.4.1',
+77 silly install resolved        'jasmine-core': '^2.4.1',
+77 silly install resolved        json: '^9.0.3',
+77 silly install resolved        karma: '^0.13.19',
+77 silly install resolved        'karma-chrome-launcher': '^0.2.2',
+77 silly install resolved        'karma-firefox-launcher': '^0.1.7',
+77 silly install resolved        'karma-jasmine': '^0.3.6',
+77 silly install resolved        'karma-mocha-reporter': '^2.0.2',
+77 silly install resolved        'karma-systemjs': '^0.10.0',
+77 silly install resolved        parse5: '^1.3.2',
+77 silly install resolved        protractor: '3.0.0',
+77 silly install resolved        'reflect-metadata': '0.1.2',
+77 silly install resolved        systemjs: '^0.19.16',
+77 silly install resolved        'systemjs-builder': '^0.15.7',
+77 silly install resolved        traceur: '0.0.96',
+77 silly install resolved        tsd: '^0.6.5',
+77 silly install resolved        typedoc: 'github:jeffbcross/typedoc',
+77 silly install resolved        typescript: '^1.8.10',
+77 silly install resolved        typings: '^0.6.2',
+77 silly install resolved        'zone.js': '^0.6.6' },
+77 silly install resolved     typings: 'angularfire2.d.ts',
+77 silly install resolved     peerDependencies:
+77 silly install resolved      { '@angular/core': '2.0.0-rc.2',
+77 silly install resolved        '@angular/platform-browser': '2.0.0-rc.2',
+77 silly install resolved        '@angular/common': '2.0.0-rc.2',
+77 silly install resolved        '@angular/compiler': '2.0.0-rc.2',
+77 silly install resolved        '@angular/platform-browser-dynamic': '2.0.0-rc.2',
+77 silly install resolved        firebase: '^3.0.3',
+77 silly install resolved        rxjs: '5.0.0-beta.6' },
+77 silly install resolved     _id: 'angularfire2@2.0.0-beta.2',
+77 silly install resolved     _shasum: '1455af597a789e6da206a6eefff87851dddb11e7',
+77 silly install resolved     _from: 'angularfire2@>=2.0.0-beta.0 <3.0.0',
+77 silly install resolved     _resolved: 'https://registry.npmjs.org/angularfire2/-/angularfire2-2.0.0-beta.2.tgz',
+77 silly install resolved     _npmVersion: '3.8.3',
+77 silly install resolved     _nodeVersion: '5.10.1',
+77 silly install resolved     _npmUser: { name: 'angularcore', email: 'angular-core+npm@google.com' },
+77 silly install resolved     dist:
+77 silly install resolved      { shasum: '1455af597a789e6da206a6eefff87851dddb11e7',
+77 silly install resolved        tarball: 'https://registry.npmjs.org/angularfire2/-/angularfire2-2.0.0-beta.2.tgz' },
+77 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+77 silly install resolved     _npmOperationalInternal:
+77 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+77 silly install resolved        tmp: 'tmp/angularfire2-2.0.0-beta.2.tgz_1466557136126_0.8304361375048757' },
+77 silly install resolved     directories: {},
+77 silly install resolved     readme: 'ERROR: No README data found!' } ]
+78 info install angularfire2@2.0.0-beta.2 into /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master
+79 info installOne angularfire2@2.0.0-beta.2
+80 verbose installOne of angularfire2 to /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master not in flight; installing
+81 verbose correctMkdir /Volumes/MAC/Users/user/.npm/_locks correctMkdir not in flight; initializing
+82 verbose lock using /Volumes/MAC/Users/user/.npm/_locks/angularfire2-d07abafc553cf537.lock for /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/angularfire2
+83 silly install write writing angularfire2 2.0.0-beta.2 to /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/angularfire2
+84 verbose unbuild node_modules/angularfire2
+85 info preuninstall angularfire2@2.0.0-beta.2
+86 info uninstall angularfire2@2.0.0-beta.2
+87 verbose unbuild rmStuff angularfire2@2.0.0-beta.2 from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules
+88 info postuninstall angularfire2@2.0.0-beta.2
+89 silly gentlyRm /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/angularfire2 is being purged from base /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master
+90 verbose gentlyRm don't care about contents; nuking /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/angularfire2
+91 silly vacuum-fs purging /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/angularfire2
+92 silly vacuum-fs quitting because other entries in /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules
+93 verbose tar unpack /Volumes/MAC/Users/user/.npm/angularfire2/2.0.0-beta.2/package.tgz
+94 verbose tar unpacking to /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/angularfire2
+95 silly gentlyRm /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/angularfire2 is being purged
+96 verbose gentlyRm don't care about contents; nuking /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/angularfire2
+97 silly gunzTarPerm modes [ '755', '644' ]
+98 silly gunzTarPerm extractEntry package.json
+99 silly gunzTarPerm extractEntry .npmignore
+100 silly gunzTarPerm extractEntry README.md
+101 silly gunzTarPerm extractEntry angularfire2.js
+102 silly gunzTarPerm extractEntry interfaces.js
+103 silly gunzTarPerm extractEntry tokens.js
+104 silly gunzTarPerm extractEntry es6/interfaces.js
+105 silly gunzTarPerm extractEntry es6/angularfire2.js
+106 silly gunzTarPerm extractEntry es6/tokens.js
+107 silly gunzTarPerm extractEntry es6/interfaces.js.map
+108 silly gunzTarPerm extractEntry es6/interfaces.d.ts
+109 silly gunzTarPerm extractEntry es6/angularfire2.d.ts
+110 silly gunzTarPerm extractEntry es6/angularfire2.js.map
+111 silly gunzTarPerm extractEntry es6/providers/auth.js
+112 silly gunzTarPerm extractEntry es6/providers/auth_backend.js
+113 silly gunzTarPerm extractEntry es6/providers/firebase_sdk_auth_backend.js
+114 silly gunzTarPerm extractEntry es6/providers/auth.d.ts
+115 silly gunzTarPerm extractEntry es6/providers/auth.js.map
+116 silly gunzTarPerm extractEntry es6/providers/auth_backend.d.ts
+117 silly gunzTarPerm extractEntry es6/providers/auth_backend.js.map
+118 silly gunzTarPerm extractEntry es6/providers/firebase_sdk_auth_backend.d.ts
+119 silly gunzTarPerm extractEntry es6/providers/firebase_sdk_auth_backend.js.map
+120 silly gunzTarPerm extractEntry es6/tokens.d.ts
+121 silly gunzTarPerm extractEntry es6/database/database.js
+122 silly gunzTarPerm extractEntry es6/database/database.d.ts
+123 silly gunzTarPerm extractEntry es6/database/database.js.map
+124 silly gunzTarPerm extractEntry es6/tokens.js.map
+125 silly gunzTarPerm extractEntry es6/utils/firebase_list_observable.js
+126 silly gunzTarPerm extractEntry es6/utils/firebase_object_factory.js
+127 silly gunzTarPerm extractEntry es6/utils/firebase_list_factory.js
+128 silly gunzTarPerm extractEntry es6/utils/firebase_object_observable.js
+129 silly gunzTarPerm extractEntry es6/utils/query_observable.js
+130 silly gunzTarPerm extractEntry es6/utils/utils.js
+131 silly gunzTarPerm extractEntry es6/utils/firebase_object_observable.d.ts
+132 silly gunzTarPerm extractEntry es6/utils/firebase_list_factory.js.map
+133 silly gunzTarPerm extractEntry es6/utils/firebase_object_factory.js.map
+134 silly gunzTarPerm extractEntry es6/utils/firebase_list_observable.d.ts
+135 silly gunzTarPerm extractEntry es6/utils/firebase_list_factory.d.ts
+136 silly gunzTarPerm extractEntry es6/utils/firebase_object_observable.js.map
+137 silly gunzTarPerm extractEntry es6/utils/query_observable.d.ts
+138 silly gunzTarPerm extractEntry es6/utils/firebase_list_observable.js.map
+139 silly gunzTarPerm extractEntry es6/utils/query_observable.js.map
+140 silly gunzTarPerm extractEntry es6/utils/utils.d.ts
+141 silly gunzTarPerm extractEntry es6/utils/firebase_object_factory.d.ts
+142 silly gunzTarPerm extractEntry es6/utils/utils.js.map
+143 silly gunzTarPerm extractEntry firebase3.d.ts
+144 silly gunzTarPerm extractEntry angularfire2.d.ts
+145 silly gunzTarPerm extractEntry utils/firebase_list_observable.js
+146 silly gunzTarPerm extractEntry utils/firebase_object_factory.js
+147 silly gunzTarPerm extractEntry utils/firebase_list_factory.js
+148 silly gunzTarPerm extractEntry utils/firebase_object_observable.js
+149 silly gunzTarPerm extractEntry utils/query_observable.js
+150 silly gunzTarPerm extractEntry utils/utils.js
+151 silly gunzTarPerm extractEntry utils/firebase_object_observable.d.ts
+152 silly gunzTarPerm extractEntry utils/firebase_list_factory.js.map
+153 silly gunzTarPerm extractEntry utils/firebase_object_factory.js.map
+154 silly gunzTarPerm extractEntry utils/firebase_list_observable.d.ts
+155 silly gunzTarPerm extractEntry utils/firebase_list_factory.d.ts
+156 silly gunzTarPerm extractEntry utils/firebase_object_observable.js.map
+157 silly gunzTarPerm extractEntry utils/query_observable.d.ts
+158 silly gunzTarPerm extractEntry utils/firebase_list_observable.js.map
+159 silly gunzTarPerm extractEntry utils/query_observable.js.map
+160 silly gunzTarPerm extractEntry utils/utils.d.ts
+161 silly gunzTarPerm extractEntry utils/firebase_object_factory.d.ts
+162 silly gunzTarPerm extractEntry utils/utils.js.map
+163 silly gunzTarPerm extractEntry interfaces.js.map
+164 silly gunzTarPerm extractEntry angularfire2.js.map
+165 silly gunzTarPerm extractEntry providers/auth.js
+166 silly gunzTarPerm extractEntry providers/auth_backend.js
+167 silly gunzTarPerm extractEntry providers/firebase_sdk_auth_backend.js
+168 silly gunzTarPerm extractEntry providers/auth.d.ts
+169 silly gunzTarPerm extractEntry providers/auth.js.map
+170 silly gunzTarPerm extractEntry providers/auth_backend.d.ts
+171 silly gunzTarPerm extractEntry providers/auth_backend.js.map
+172 silly gunzTarPerm extractEntry providers/firebase_sdk_auth_backend.d.ts
+173 silly gunzTarPerm extractEntry providers/firebase_sdk_auth_backend.js.map
+174 silly gunzTarPerm extractEntry tokens.d.ts
+175 silly gunzTarPerm extractEntry database/database.js
+176 silly gunzTarPerm extractEntry database/database.d.ts
+177 silly gunzTarPerm extractEntry database/database.js.map
+178 silly gunzTarPerm extractEntry tokens.js.map
+179 silly gunzTarPerm extractEntry interfaces.d.ts
+180 verbose write writing to /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/angularfire2/package.json
+181 info preinstall angularfire2@2.0.0-beta.2
+182 verbose readDependencies loading dependencies from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/angularfire2/package.json
+183 silly prepareForInstallMany adding @angular/core@2.0.0-rc.2 from angularfire2 peerDependencies
+184 silly prepareForInstallMany adding @angular/platform-browser@2.0.0-rc.2 from angularfire2 peerDependencies
+185 silly prepareForInstallMany adding @angular/common@2.0.0-rc.2 from angularfire2 peerDependencies
+186 silly prepareForInstallMany adding @angular/compiler@2.0.0-rc.2 from angularfire2 peerDependencies
+187 silly prepareForInstallMany adding @angular/platform-browser-dynamic@2.0.0-rc.2 from angularfire2 peerDependencies
+188 silly prepareForInstallMany adding firebase@^3.0.3 from angularfire2 peerDependencies
+189 warn peerDependencies The peer dependency @angular/core@2.0.0-rc.2 included from angularfire2 will no
+190 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+191 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+192 warn peerDependencies The peer dependency @angular/platform-browser@2.0.0-rc.2 included from angularfire2 will no
+193 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+194 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+195 warn peerDependencies The peer dependency @angular/common@2.0.0-rc.2 included from angularfire2 will no
+196 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+197 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+198 warn peerDependencies The peer dependency @angular/compiler@2.0.0-rc.2 included from angularfire2 will no
+199 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+200 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+201 warn peerDependencies The peer dependency @angular/platform-browser-dynamic@2.0.0-rc.2 included from angularfire2 will no
+202 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+203 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+204 warn peerDependencies The peer dependency firebase@^3.0.3 included from angularfire2 will no
+205 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+206 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+207 verbose readDependencies loading dependencies from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/angularfire2/package.json
+208 silly install resolved []
+209 verbose about to build /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/angularfire2
+210 info build /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/angularfire2
+211 info linkStuff angularfire2@2.0.0-beta.2
+212 silly linkStuff angularfire2@2.0.0-beta.2 has /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules as its parent node_modules
+213 verbose linkBins angularfire2@2.0.0-beta.2
+214 verbose linkMans angularfire2@2.0.0-beta.2
+215 verbose rebuildBundles angularfire2@2.0.0-beta.2
+216 info install angularfire2@2.0.0-beta.2
+217 info postinstall angularfire2@2.0.0-beta.2
+218 verbose readDependencies loading dependencies from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/package.json
+219 verbose targetResolver reading package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/angular2/package.json
+220 verbose targetResolver reading package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/angularfire2/package.json
+221 verbose targetResolver reading package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/del/package.json
+222 verbose targetResolver reading package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/es6-shim/package.json
+223 verbose targetResolver reading package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/firebase/package.json
+224 verbose targetResolver reading package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/gulp/package.json
+225 verbose targetResolver reading package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/gulp-watch/package.json
+226 verbose targetResolver reading package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/ionic-angular/package.json
+227 verbose targetResolver reading package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/ionic-gulp-browserify-typescript/package.json
+228 verbose targetResolver reading package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/ionic-gulp-fonts-copy/package.json
+229 verbose targetResolver reading package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/ionic-gulp-html-copy/package.json
+230 verbose targetResolver reading package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/ionic-gulp-sass-build/package.json
+231 verbose targetResolver reading package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/ionic-gulp-scripts-copy/package.json
+232 verbose targetResolver reading package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/ionic-native/package.json
+233 verbose targetResolver reading package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/ionicons/package.json
+234 verbose targetResolver reading package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/reflect-metadata/package.json
+235 verbose targetResolver reading package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/run-sequence/package.json
+236 verbose targetResolver reading package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/rxjs/package.json
+237 verbose targetResolver reading package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/zone.js/package.json
+238 verbose targetResolver reading package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/.bin/gulp/package.json
+239 verbose targetResolver reading package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/@angular/common/package.json
+240 verbose targetResolver reading package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/@angular/compiler/package.json
+241 verbose targetResolver reading package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/@angular/core/package.json
+242 verbose targetResolver reading package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/@angular/http/package.json
+243 verbose targetResolver reading package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/@angular/platform-browser/package.json
+244 verbose targetResolver reading package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/@angular/platform-browser-dynamic/package.json
+245 verbose targetResolver reading package data from /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/@angular/router/package.json
+246 verbose already installed skipping @angular/core@2.0.0-rc.2 /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master
+247 verbose already installed skipping @angular/platform-browser@2.0.0-rc.2 /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master
+248 verbose already installed skipping @angular/common@2.0.0-rc.2 /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master
+249 verbose already installed skipping @angular/compiler@2.0.0-rc.2 /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master
+250 verbose already installed skipping @angular/platform-browser-dynamic@2.0.0-rc.2 /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master
+251 verbose already installed skipping firebase@^3.0.3 /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master
+252 silly install resolved []
+253 verbose unlock done using /Volumes/MAC/Users/user/.npm/_locks/angularfire2-d07abafc553cf537.lock for /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/node_modules/angularfire2
+254 verbose validateInstall loading /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master/package.json for validation
+255 verbose stack Error: The package @angular/common@2.0.0-rc.4 does not satisfy its siblings' peerDependencies requirements!
+255 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+255 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+255 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+255 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+255 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+255 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+255 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+255 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+255 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+255 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+256 verbose cwd /Volumes/MAC/Users/user/Ionic2/ionic2-angularfire-login-master
+257 error Darwin 15.6.0
+258 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "angularfire2" "--save"
+259 error node v4.4.6
+260 error npm  v2.15.5
+261 error code EPEERINVALID
+262 error peerinvalid The package @angular/common@2.0.0-rc.4 does not satisfy its siblings' peerDependencies requirements!
+262 error peerinvalid Peer @angular/platform-browser@2.0.0-rc.4 wants @angular/common@^2.0.0-rc.4
+262 error peerinvalid Peer @angular/platform-browser-dynamic@2.0.0-rc.4 wants @angular/common@^2.0.0-rc.4
+262 error peerinvalid Peer @angular/router@2.0.0-rc.2 wants @angular/common@^2.0.0-rc
+262 error peerinvalid Peer angularfire2@2.0.0-beta.2 wants @angular/common@2.0.0-rc.2
+262 error peerinvalid Peer ionic-angular@2.0.0-beta.8 wants @angular/common@^2.0.0-rc.1
+263 verbose exit [ 1, true ]
